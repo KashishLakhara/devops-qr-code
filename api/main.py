@@ -57,4 +57,3 @@ async def generate_qr(url: str):
         return {"qr_code_url": s3_url}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
-   # demo change 
